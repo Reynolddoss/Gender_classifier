@@ -1,4 +1,23 @@
 # Gender_classifier
-Product based gender classifier
 
-The list of several product details are provided in the data set
+## Requirement
+	* Python3
+
+## Required Library
+	* gensim
+	* nltk
+	* re
+	1)Importing Dataset
+Using the pandas library read the CSV data from the source
+	2) Check for NULL values
+	3)Remove those rows with NULL values
+	4)Convert all coloumn data into list 
+	5)Clean the data from every cell of the dataframe
+	6)Find Unique values from the label column (gender)
+	7)Map each to a number
+	8)Use the CountVectorizer function to convert the text data into vectors
+	9)Using the XGBOOST classifier, train the model with the training set and find the accuracy using the test data.
+
+	10)Confusion matrix is also found for the same.
+
+
