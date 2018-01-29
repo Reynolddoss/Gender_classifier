@@ -18,5 +18,7 @@
 	8)Use the CountVectorizer function to convert the text data into vectors
 	9)Using the XGBOOST classifier, train the model with the training set and find the accuracy using the test data.
 	10)Confusion matrix is also found for the same.
+## Note
+ 	Check for the data, if its in 'int' then it  need to be converted as 'str' in order to find the null/NaN values. 
 
 
