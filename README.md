@@ -20,5 +20,5 @@
 	10)Confusion matrix is also found for the same.
 ## Note
  	Check for the data, if its in 'int' then it  need to be converted as 'str' in order to find the null/NaN values. 
-
+	The Gender clasifier trained here is for the respective data style alone.
 
